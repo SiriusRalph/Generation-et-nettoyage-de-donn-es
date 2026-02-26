@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secure Data Cleaner</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Secure Data Cleaner</h1>
+
+    <div class="buttons">
+        <a href="/generate" class="btn">Generate Fake Data</a>
+    </div>
+
+    <form action="/clean" method="post" enctype="multipart/form-data" class="upload-box">
+        <label>Select a file to clean:</label>
+        <input type="file" name="file" required>
+        <button class="btn" type="submit">Clean File</button>
+    </form>
+
+    <div class="report">
+        <h2>Cleaning Report</h2>
+        <pre>{{ report }}</pre>
+    </div>
+</div>
+
+</body>
+</html>

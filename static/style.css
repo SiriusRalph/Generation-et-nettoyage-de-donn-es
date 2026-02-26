@@ -1,0 +1,49 @@
+body {
+    background: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.buttons, .upload-box {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #0066ff;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #004bcc;
+}
+
+.report {
+    background: #f0f0ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+pre {
+    white-space: pre-wrap;
+    font-size: 14px;
+}

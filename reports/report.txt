@@ -1,0 +1,5 @@
+Cleaned File: cleaned_data\cleaned_sample4.xlsx
+Rows: 18, Columns: 3
+Duplicates removed: 3
+Missing values handled: 15
+Negative transaction amounts fixed: 0
